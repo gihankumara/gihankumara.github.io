@@ -1,0 +1,34 @@
+/*sticky footer*/
+body {margin-bottom:30px;background-color: #1F1E26}
+.footer {position: absolute;bottom: 0;width: 100%;height: 30px;}
+.footer > .container {padding-right: 15px;padding-left: 15px; font-size: 13px; text-align: center;color:#e2e2e4}
+
+.bg-nav-col{background-color: #1F1E26;border-bottom: 1px solid #424244}
+.pro-name{ font-size: 18px; font-weight: bold}
+.pro-des{ font-size: 16px}
+
+path{transition: all 0.5s ease; fill}
+/*path:hover{fill:#7967EB}*/
+polygon:hover{fill: red}.counter{font-family: ds-digitalnormal;font-size: 25px;font-weight: normal;}
+.total{ color: white; text-transform:uppercase; font-size:15px;margin-bottom: 0;  }
+.date{color:#B3B3B3}.master-wrp{margin-top: 100px}
+.light-wrp{float: left}.ligh-dec-wrp{float:left;margin-left: 11px;}
+.totall-amout span{color: white;font-weight: bold;margin-left: 33px;font-size: 40px;}
+.total-inner-wrapper{overflow: hidden}
+.media-bg{background-color:inherit; margin-top: 20%;}
+.media-body strong{ color: white;}
+.media-body span{color: white;}
+.media-adj{margin-bottom: 20px;}.media img{position: relative;bottom:10px}
+@font-face {
+    font-family: 'ds-digitalnormal';
+    src: url('../fonts/ds-digi-webfont.woff2') format('woff2'),
+         url('../fonts/ds-digi-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+.popover-header{padding: .3rem .75rem !important; font-size: 12px !important; font-weight: bold !important}
+.popover-body{padding: .2rem .75rem !important; font-size: 12px !important;}
+.on{fill: green}
+.left-menu{padding: 2px;margin-left: 15px;}.left-menu li a{color:white}.left-menu li{line-height:20px;font-size: 13px;}
+.left-menu li a:hover{color:#7967EB}.selected{color:#7967EB }
